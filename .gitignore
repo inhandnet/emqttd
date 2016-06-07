@@ -13,6 +13,7 @@ rel/emqttd*
 .rebar
 test/ebin/*.beam
 .exrc
+plugins
 plugins/*/ebin
 log/
 *.swp
@@ -26,3 +27,4 @@ eunit.coverdata
 test/ct.cover.spec
 logs
 ct.coverdata
+*.iml

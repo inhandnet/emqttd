@@ -2,7 +2,7 @@
 
 APP      = emqttd
 BASE_DIR = $(shell pwd)
-REBAR    = $(BASE_DIR)/rebar
+REBAR    = rebar
 DIST	 = $(BASE_DIR)/rel/$(APP)
 
 all: submods compile
