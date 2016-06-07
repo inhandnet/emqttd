@@ -10,3 +10,6 @@
 [submodule "plugins/emqttd_plugin_amqp"]
 	path = plugins/emqttd_plugin_amqp
 	url = git@github.com:inhandnet/emqttd_plugin_amqp.git
+[submodule "plugins/emqttd_plugin_amqp"]
+	path = plugins/emqttd_plugin_amqp
+	url = git@github.com:inhandnet/emqttd_plugin_amqp.git

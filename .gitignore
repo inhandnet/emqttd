@@ -13,7 +13,6 @@ rel/emqttd*
 .rebar
 test/ebin/*.beam
 .exrc
-plugins
 plugins/*/ebin
 log/
 *.swp
