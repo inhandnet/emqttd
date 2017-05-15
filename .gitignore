@@ -27,3 +27,4 @@ test/ct.cover.spec
 logs
 ct.coverdata
 *.iml
+/.idea
