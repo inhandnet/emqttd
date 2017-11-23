@@ -8,7 +8,7 @@ RUN apt-get update \
     && apt-get install -y openssl \
     && rm -rf /var/lib/apt/lists/*
 
-COPY emqttd /
+COPY emqttd /emqttd
 WORKDIR /emqttd
 
 ENTRYPOINT ["bin/emqttd"]
