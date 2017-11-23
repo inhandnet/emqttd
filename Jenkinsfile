@@ -28,7 +28,7 @@ pipeline {
         stage('Build') {
             agent any
             steps {
-                sh 'make && make dist'
+                sh 'make clean dist'
                 script {
                     app = docker.build("elements/emqttd", "rel")
                 }
@@ -50,9 +50,6 @@ pipeline {
         }
 
         stage('Deploy') {
-            when {
-                branch 'develop'
-            }
             agent {
                 node {
                     label 'office.j3r0lin.com'

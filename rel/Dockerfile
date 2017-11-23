@@ -12,4 +12,4 @@ COPY emqttd /emqttd
 WORKDIR /emqttd
 
 ENTRYPOINT ["bin/emqttd"]
-CMD ["console", "--noshell"]
+CMD ["console", "-noshell"]
